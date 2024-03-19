@@ -54,17 +54,17 @@ function decrypt(code) {
     ".-..-.": '"',
     "...-..-": "$",
     ".--.-.": "@",
-    "/": " ", // Include space character
+    "/": " ", 
   };
 
   let decryptedText = "";
-  const codeWords = code.split("  "); // Split by double spaces to separate words
+  const codeWords = code.split("  ");
   for (let word of codeWords) {
-    const wordChars = word.split(" "); // Split by single spaces to separate characters
+    const wordChars = word.split(" ");
     for (let char of wordChars) {
       decryptedText += reverseMorseCode[char] || char;
     }
-    decryptedText += " "; // Add space between words
+    decryptedText += " ";
   }
   return decryptedText.trim();
 }
