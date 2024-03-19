@@ -47,7 +47,7 @@ input[type="text"] {
   border: 1px solid #ccc;
   width: calc(
     100% - 12px
-  ); /* Adjust width to account for padding and borders */
+  ); 
   margin-bottom: 10px;
 }
 
