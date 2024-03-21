@@ -2,7 +2,7 @@
 
 Welcome to the Morse Code Encryption and Decryption website! This web application allows you to encode messages into Morse code and decode Morse code back into readable text. It's a handy tool for learning Morse code or exchanging secret messages.
 
-![Screenshot 1](screenshots/Screenshot222.png)
+![Screenshot 1](Screenshot222.png)
 
 ## Features
 
